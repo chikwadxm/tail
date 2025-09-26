@@ -4,41 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/9969d36fcf.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
-<body class= "bg-amber-100 md:block">
-    <header class="flex m-5 justify-between pb-30">
-    <div class="m-2"> John Doe</div>
-    <div class="flex justify-between">
-      <div class="m-2">About</div>
-      <div class="m-2">Experience</div>
-      <div class="m-2">Projects</div>
-      <div class="m-2">Contact</div>
-    </div>
-    </header>
-    <main class="flex justify-center md:bg-blue-100">
-     <div class="justify-center"> 
-      <img class="rounded-full m-5 w-[190px] h-[190px]" src="src/img/tems.jpeg">
-     </div> 
-     <div class="text-center justify-center p-11">
-      <p class="text-[10px]">Hello I'm</p>
-      <p class="font-bold text-[25px]">John Doe</p>
-      <p class="text-gray-600 font-bold text-[15px]">Frontend Developer</p>
-      <div class="flex m-3 ">
-        <p class="border  rounded-2xl p-1 w-20 h-7 text-[10px]">Download CV</p>
-      <p class="bg-black ml-1 text-white rounded-2xl p-1 w-20 h-7 text-[10px] ">Contact Info</p>
+  <body class="bg-amber-100">
+    <header class="flex m-5 justify-between sm:pb-20">
+      <div class="m-2">John Doe</div>
+      <div class="sm:hidden">
+        <i class=" fa-solid fa-bars"></i>
+
+
       </div>
-      
+      <div class="flex max-sm:hidden justify-between">
+        <div class="m-2">About</div>
+        <div class="m-2">Experience</div>
+        <div class="m-2">Projects</div>
+        <div class="m-2">Contact</div>
+      </div>
+    </header>
+    <main
+      class="flex justify-center max-sm:flex-col max-sm:bg-blue-100 max-sm:border max-sm:align-middle"
+    >
+      <div class="flex justify-center">
+        <img
+          class="rounded-full m-5 w-[100px] h-[100px]"
+          src="src/img/tems.jpeg"
+        />
+      </div>
+      <div class="text-center p-11">
+        <p class="text-[10px]">Hello I'm</p>
+        <p class="font-bold text-[25px]">John Doe</p>
+        <p class="text-gray-600 font-bold text-[15px]">Frontend Developer</p>
+
+        <div class="flex justify-center m-3">
+          <p class="border rounded-2xl p-1 w-24 h-7 text-[10px]">
+            Download CV <i class="inline fa-brands fa-square-linkedin"></i>
+          </p>
+          <p
+            class="bg-black ml-1 text-white rounded-2xl p-1 w-24 h-7 text-[10px]"
+          >
+            Contact Info <i class="inline fa-brands fa-github"></i>
+          </p>
+        </div>
+      </div>
     </main>
-  
-  
-    
-  
-  
-  
-</body>
-
-
+  </body>
 
   <!-- <body>
     <div class="md:flex"> <img class="  rounded-xl w-[400px]"src="/src/img/boys.png">
